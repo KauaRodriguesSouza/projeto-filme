@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+}
+
+header > .netflix{
+    width: 100px;
+    padding-right: 30px;
+}
+nav > a {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+     
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: #fff;
+   
+    
+}
+
+a > img {
+    width: 40px;
+    padding: 100px;
+    
+}
+
+
+
+    
+    
