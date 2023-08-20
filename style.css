@@ -39,6 +39,7 @@ header{
 
 header  .netflix{
     width: 80px;
+    padding-right: 20px;
     
 }
 nav{
@@ -64,11 +65,10 @@ a img{
 }
 
 main{
-    background-color: rgb(193, 17, 25);
+    background-image: linear-gradient(to right, #FF0000, #800000, #FF0000);
     min-width: 50px;
     text-indent: 20px;
     border-radius: 5px;
-    padding: 5px;
     margin: auto;
 }
 main h1{
@@ -88,10 +88,16 @@ main p{
     color: white;
     font-size: 20px;
     font-family: var(--font-p);
+    padding: 10px;
 }
 main img{
     width: 70%;
     padding: 20px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    font-family: var(--font-h1);
 }
 
 
