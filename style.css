@@ -95,9 +95,9 @@ main p{
     font-family: var(--font-p);
     padding: 10px;
 }
-main img{
+section img{
     width: 70%;
-    padding: 20px;
+    padding: 25px;
 }
 footer{
     background-color: black;
