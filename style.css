@@ -63,11 +63,11 @@ nav a{
     font-weight: bolder;
     color: #f50000;
 }
-a img{
+img{
     width: 5vw;
     padding: 1vw;
+    
 }
-
 main{
     background-image: linear-gradient(to right, #FF0000, #800000, #FF0000);
     min-width: 50px;
