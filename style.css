@@ -32,6 +32,7 @@ body{
 }
 header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     width: 100%;
@@ -39,33 +40,32 @@ header{
     
 }
 
+
 header  .netflix{
     width: 80px;
     padding-right: 50px;
     
     
 }
-nav{
-    padding-right: 30px;
-    
-}
-nav a{
-    font-size:3vw;
+  
+
+a{
+    padding: 10px;
+    font-size: 30px;
     font-weight: bolder;
+    text-decoration: none;
     font-family: var(--font-principal);
     color: white;
-    padding-right: 1vw;
     
    
 }
-.navs a:hover{
+a:hover{
     text-decoration: underline;
     font-weight: bolder;
     color: #f50000;
 }
 img{
-    width: 5vw;
-    padding: 1vw;
+    width: 40px;
     
 }
 main{
